@@ -1,28 +1,36 @@
 import {
-  mobile,
   backend,
+  berkeleytimelogo,
+  carrent,
+  citadellogo,
+  close,
+  cpluspluslogo,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
+  csharplogo,
   css,
+  docker,
+  git,
+  github,
+  gmrlogo,
+  html,
+  javalogo,
+  jobit,
+  jpllogo,
+  logo,
+  menu,
+  mobile,
+  mongodb,
+  nodejs,
+  pythonlogo,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  tripguide,
+  typescript,
+  vexusopenlogo,
+  vexworldslogo,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -69,10 +77,6 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -93,20 +97,28 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "C#",
+    icon: csharplogo,
+  },
+  {
+    name: "Python",
+    icon: pythonlogo,
+  },
+  {
+    name: "C++",
+    icon: cpluspluslogo,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Java",
+    icon: javalogo,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,83 +128,95 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineering Intern",
+    company_name: "Citadel",
+    icon: citadellogo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing brand new tool using React, Python, Redis, PostgresDB,and MSSQLfor the global fixed income team.",
+      "Saving traders time and money by creating a service that allows full communication between internal systems and banks."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Berkeley Time",
+    icon: berkeleytimelogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Modernized and optimized the backend infrastructure for BerkeleyTime, an internal project at UC Berkeley used by over 40,000 students annually to plan their coursework and schedules.",
+      "Facilitate transition to modern tools and technologies such as Graph QL, MongoDB, Node, and Typescript."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineering Intern",
+    company_name: "Jet Propulsion Laboratory",
+    icon: jpllogo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed communication systems for High Altitude Balloons to communicate sensor data to groundstations via satellite.",
+      "Developed full-stack app using React, Postgre SQL and Docker to livestream video footage for constant monitoring."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Senior Programming Instructor",
+    company_name: "Great Minds Robotics",
+    icon: gmrlogo,
+    iconBg: "#383E56",
+    date: "May 2020 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Co-lead Immersive Learning Courses in fields of Computer Architecture and Computer Vision.",
+      "Maintained company GitHub curriculums: Data Structures, Cryptography, Computer Vision and Neural Networks."
     ],
   },
-];
-
-const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    title: "Junior Instructor",
+    company_name: "Great Minds Robotics",
+    icon: gmrlogo,
+    iconBg: "#383E56",
+    date: "May 2018 - May 2020",
+    points: [
+      "Responsible for directly teaching students fundamentals of OOP, primarily in C# and C++. Tracked student progress, frequently established connections with struggling students and identifying root causes of problems.",
+      "Observed other instructors and lecturers, gathering valuable techniques to implement into future lectures and courses."
+    ],
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Lead Driver & Programmer",
+    company_name: "VEX Robotics World Championship",
+    icon: vexworldslogo,
+    iconBg: "#383E56",
+    date: "2018-2019",
+    points: [
+      "1st Place Division Teamwork",
+      "2nd Place Overall Robot Skills",
+      "Think Award (awarded to 4/500 teams)"
+    ],
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Lead Driver & Programmer",
+    company_name: "US Open VEX Championship",
+    icon: vexusopenlogo,
+    iconBg: "#383E56",
+    date: "2018-2019",
+    points: [
+      "1st Place Robot Skills",
+      "1st Place Teamwork Champion",
+      "Excellence Award (Highest Honor)",
+    ],
+  },
+  {
+    title: "Lead Driver & Programmer",
+    company_name: "Vex Robotics World Championship",
+    icon: vexworldslogo,
+    iconBg: "#383E56",
+    date: "2017-2018",
+    points: [
+      "1st Place Division Teamwork Champion",
+      "3rd Place World Champion",
+      "Judges Award (awarded to 4/500 teams)"
+    ],
   },
 ];
 
@@ -262,4 +286,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

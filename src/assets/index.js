@@ -1,62 +1,67 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
+import berkeleytimelogo from "./company/berkeleytimelogo.png";
+import carrent from "./carrent.png";
+import citadellogo from "./company/citadellogo.png";
 import close from "./close.svg";
-
+import cpluspluslogo from "./tech/cpluspluslogo.png";
+import creator from "./creator.png";
+import csharplogo from "./tech/csharplogo.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import github from "./github.png";
+import gmrlogo from "./company/gmrlogo.png"
 import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import javalogo from "./tech/javalogo.png";
+import jobit from "./jobit.png";
+import jpllogo from "./company/jpllogo.png"
+import logo from "./logo.svg";
+import menu from "./menu.svg";
+import mobile from "./mobile.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import pythonlogo from "./tech/pythonlogo.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import typescript from "./tech/typescript.png";
+import vexusopenlogo from "./company/vexusopenlogo.png";
+import vexworldslogo from "./company/vexworldslogo.png";
+import web from "./web.png";
 
 export {
-  logo,
   backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
+  berkeleytimelogo,
+  carrent,
+  citadellogo,
   close,
+  cpluspluslogo,
+  creator,
+  csharplogo,
   css,
   docker,
-  figma,
   git,
+  github,
+  gmrlogo,
   html,
-  javascript,
+  javalogo,
+  jobit,
+  jpllogo,
+  logo,
+  menu,
+  mobile,
   mongodb,
   nodejs,
+  pythonlogo,
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
   tripguide,
+  typescript,
+  vexusopenlogo,
+  vexworldslogo,
+  web,
 };
