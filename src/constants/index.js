@@ -18,19 +18,23 @@ import {
   jpllogo,
   logo,
   menu,
+  mlablogo,
   mobile,
   mongodb,
   nodejs,
   pythonlogo,
+  qrlogo,
   reactjs,
   redux,
   tailwind,
   threejs,
   tripguide,
   typescript,
+  verletphysicsmp4,
   vexusopenlogo,
   vexworldslogo,
   web,
+  mpuemulator
 } from "../assets";
 
 export const navLinks = [
@@ -43,8 +47,12 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "tech",
+    title: "Skills"
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
 ];
 
@@ -69,59 +77,59 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    title: "HTML 5",
     icon: html,
   },
   {
-    name: "CSS 3",
+    title: "CSS 3",
     icon: css,
   },
   {
-    name: "TypeScript",
+    title: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
+    title: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    title: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    title: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    title: "Node JS",
     icon: nodejs,
   },
   {
-    name: "C#",
+    title: "C#",
     icon: csharplogo,
   },
   {
-    name: "Python",
+    title: "Python",
     icon: pythonlogo,
   },
   {
-    name: "C++",
+    title: "C++",
     icon: cpluspluslogo,
   },
   {
-    name: "MongoDB",
+    title: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Java",
+    title: "Java",
     icon: javalogo,
   },
   {
-    name: "git",
+    title: "git",
     icon: git,
   },
   {
-    name: "docker",
+    title: "docker",
     icon: docker,
   },
 ];
@@ -147,6 +155,17 @@ const experiences = [
     points: [
       "Modernized and optimized the backend infrastructure for BerkeleyTime, an internal project at UC Berkeley used by over 40,000 students annually to plan their coursework and schedules.",
       "Facilitate transition to modern tools and technologies such as Graph QL, MongoDB, Node, and Typescript."
+    ],
+  },
+  {
+    title: "Officer",
+    company_name: "Machine Learning @ Berkeley",
+    icon: mlablogo,
+    iconBg: "#E6DEDD",
+    date: "August 2022 - Present",
+    points: [
+      "Responsible for increasing revenue through meeting with companies to discuss technical partnerships for the semester.",
+      "Ensuring client deliverables and milestones are met through up keeping SDLC and Agile-methodology."
     ],
   },
   {
@@ -222,66 +241,62 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "6502 MPU Emulator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a 6502 MPU Emulator to specification with a text-editor interface and debugging capability. Successfully able to run complex programs (Fibonacci sequence generator) involving loops and MMIO.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Windows Forms",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Blazor",
+        color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mpuemulator,
+    source_code_link: "https://github.com/MichaelKhaykin/6502Emulator",
   },
   {
-    name: "Job IT",
+    name: "QR Code Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Researched and implemented a working QRCode Generator using C# and WindowsForms from scratch. Can embed any text of varying lengths into the QRCode aswell as control QRCode pattern.",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Windows Forms",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: qrlogo,
+    source_code_link: "https://github.com/MichaelKhaykin/QRCodeGenerator",
   },
   {
-    name: "Trip Guide",
+    name: "Verlet Physics Engine",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed and tested a small Verlet physics system by simulating a flag via arranging particles in a grid/rope-like system. Used GPU to efficiently map an image on to the particles in the grid.",
     tags: [
       {
-        name: "nextjs",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MonoGame",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "GPU",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: verletphysicsmp4,
     source_code_link: "https://github.com/",
   },
 ];

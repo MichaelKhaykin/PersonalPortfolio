@@ -1,19 +1,59 @@
 import React from "react";
 
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+import { motion } from "framer-motion";
+
+import Tilt from "react-tilt";
+import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from "../styles";
+
+const SkillCard = ({ index, title, icon }) => (
+  <Tilt className='xs:w-[250px] w-full'>
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+    >
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[20px] flex justify-evenly items-center flex-col'
+      >
+        <img
+          src={icon}
+          alt='web-development'
+          className='w-16 h-16 object-contain'
+        />
+
+        <h3 className='text-white text-[20px] font-bold text-center'>
+          {title}
+        </h3>
+      </div>
+    </motion.div>
+  </Tilt>
+);
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-        </div>
-      ))}
-    </div>
+    <>
+     <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+      <h2 className={styles.sectionHeadText}>Skills & Certifications</h2>
+      </motion.p>
+
+      <div className='mt-20 flex flex-wrap gap-10'>
+        {technologies.map((technology, index) => (
+          <SkillCard key={technology.title} index={index} {...technology} />
+        ))}
+      </div>
+    </>
+   
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "tech");
