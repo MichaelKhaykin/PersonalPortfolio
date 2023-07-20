@@ -142,7 +142,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
     points: [
-      "Developing brand new tool using React, Python, Redis, PostgresDB,and MSSQLfor the global fixed income team.",
+      "Developing brand new tool using React, Python, Redis, PostgresDB,and MSSQL for the global fixed income team.",
       "Saving traders time and money by creating a service that allows full communication between internal systems and banks."
     ],
   },
