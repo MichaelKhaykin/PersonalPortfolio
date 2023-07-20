@@ -154,7 +154,7 @@ const experiences = [
     date: "Jan 2023 - May 2023",
     points: [
       "Modernized and optimized the backend infrastructure for BerkeleyTime, an internal project at UC Berkeley used by over 40,000 students annually to plan their coursework and schedules.",
-      "Facilitate transition to modern tools and technologies such as Graph QL, MongoDB, Node, and Typescript."
+      "Facilitated transition to modern tools and technologies such as Graph QL, MongoDB, Node, and Typescript."
     ],
   },
   {
