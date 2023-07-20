@@ -17,16 +17,20 @@ import jobit from "./jobit.png";
 import jpllogo from "./company/jpllogo.png"
 import logo from "./logo.svg";
 import menu from "./menu.svg";
+import mlablogo from "./company/mlablogo.png";
 import mobile from "./mobile.png";
 import mongodb from "./tech/mongodb.png";
+import mpuemulator from "./mpuemulator.png";
 import nodejs from "./tech/nodejs.png";
 import pythonlogo from "./tech/pythonlogo.png";
+import qrlogo from "./qrlogo.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import tripguide from "./tripguide.png";
 import typescript from "./tech/typescript.png";
+import verletphysicsmp4 from "./verletphysics.gif";
 import vexusopenlogo from "./company/vexusopenlogo.png";
 import vexworldslogo from "./company/vexworldslogo.png";
 import web from "./web.png";
@@ -51,16 +55,20 @@ export {
   jpllogo,
   logo,
   menu,
+  mlablogo,
   mobile,
   mongodb,
+  mpuemulator,
   nodejs,
   pythonlogo,
+  qrlogo,
   reactjs,
   redux,
   tailwind,
   threejs,
   tripguide,
   typescript,
+  verletphysicsmp4,
   vexusopenlogo,
   vexworldslogo,
   web,
