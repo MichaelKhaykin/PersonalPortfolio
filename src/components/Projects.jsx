@@ -89,6 +89,10 @@ const Projects = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      <div>
+        Website template credit: @JavaScript Mastery
+      </div>
     </>
   );
 };
