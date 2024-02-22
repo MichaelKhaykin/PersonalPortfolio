@@ -136,6 +136,15 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Citadel",
+    icon: citadellogo,
+    iconBg: "#383E56",
+    date: "February 2024 - Present",
+    points: [
+    ],
+  },
+  {
     title: "Software Engineering Intern",
     company_name: "Citadel",
     icon: citadellogo,

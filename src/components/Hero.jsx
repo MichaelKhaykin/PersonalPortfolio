@@ -19,7 +19,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Michael</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a rising senior at UC Berkeley studying Electrical Engineering & Computer Science. This portfolio is a short summary of my journey in tech.
+            I graduated from UC Berkeley with a Bachelor's degree in Electrical Engineering & Computer Science @ age 19. This portfolio is a short summary of my journey in tech.
             <br className='sm:block hidden' />
           </p>
         </div>
