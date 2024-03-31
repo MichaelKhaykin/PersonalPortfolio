@@ -58,11 +58,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Low latency developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game developer",
     icon: mobile,
   },
   {
@@ -77,12 +77,20 @@ const services = [
 
 const technologies = [
   {
-    title: "HTML 5",
-    icon: html,
+    title: "C++",
+    icon: cpluspluslogo,
   },
   {
-    title: "CSS 3",
-    icon: css,
+    title: "Python",
+    icon: pythonlogo,
+  },
+  {
+    title: "C#",
+    icon: csharplogo,
+  },
+  {
+    title: "Java",
+    icon: javalogo,
   },
   {
     title: "TypeScript",
@@ -101,28 +109,20 @@ const technologies = [
     icon: tailwind,
   },
   {
-    title: "Node JS",
-    icon: nodejs,
-  },
-  {
-    title: "C#",
-    icon: csharplogo,
-  },
-  {
-    title: "Python",
-    icon: pythonlogo,
-  },
-  {
-    title: "C++",
-    icon: cpluspluslogo,
+    title: "HTML 5",
+    icon: html,
   },
   {
     title: "MongoDB",
     icon: mongodb,
   },
   {
-    title: "Java",
-    icon: javalogo,
+    title: "CSS 3",
+    icon: css,
+  },
+  {
+    title: "Node JS",
+    icon: nodejs,
   },
   {
     title: "git",
